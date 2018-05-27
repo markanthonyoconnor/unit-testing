@@ -1,0 +1,4 @@
+-------------------------------------------------------------------------------
+Test set: com.markoconnor.unittesting.data.ItemRepositoryTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.773 s - in com.markoconnor.unittesting.data.ItemRepositoryTest
