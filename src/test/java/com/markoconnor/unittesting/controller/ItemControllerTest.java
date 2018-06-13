@@ -33,9 +33,12 @@ public class ItemControllerTest {
     @Test
     public void dummyItem_basic() throws Exception {
 
-        RequestBuilder request = MockMvcRequestBuilders.get("/dummy-item").accept(MediaType.APPLICATION_JSON);
+        RequestBuilder request = MockMvcRequestBuilders
+                .get("/dummy-item")
+                .accept(MediaType.APPLICATION_JSON);
 
-        MvcResult result = mockMvc.perform(request).andExpect(status().isOk())
+        MvcResult result = mockMvc.perform(request)
+                .andExpect(status().isOk())
                 .andExpect(content().json( "{\"id\": 1,\"name\":\"Ball\",\"price\":10,\"quantity\":100}"))
                 .andReturn();
 
