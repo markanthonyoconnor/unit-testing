@@ -1,4 +1,4 @@
-package com.markoconnor.unittesting.com.markoconnor.unittesting.business;
+package com.markoconnor.unittesting.business;
 
 import com.markoconnor.unittesting.business.SomeBusinessImpl;
 import org.junit.Test;

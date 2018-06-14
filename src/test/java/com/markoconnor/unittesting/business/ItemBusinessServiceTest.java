@@ -1,6 +1,5 @@
-package com.markoconnor.unittesting.com.markoconnor.unittesting.business;
+package com.markoconnor.unittesting.business;
 
-import com.markoconnor.unittesting.business.ItemBusinessService;
 import com.markoconnor.unittesting.data.ItemRepository;
 import com.markoconnor.unittesting.model.Item;
 import org.junit.Test;

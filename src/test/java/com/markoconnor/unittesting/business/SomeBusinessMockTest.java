@@ -1,4 +1,4 @@
-package com.markoconnor.unittesting.com.markoconnor.unittesting.business;
+package com.markoconnor.unittesting.business;
 
 import com.markoconnor.unittesting.business.SomeBusinessImpl;
 import com.markoconnor.unittesting.data.SomeDataService;
@@ -23,6 +23,7 @@ public class SomeBusinessMockTest {
     SomeDataService dataServiceMock = mock(SomeDataService.class);
 
     // Mockito does thia part for you by initialising the fields that have @Mock and inject in the object so no need for @Before
+
     //@Before
     //public void before() {
     //  business.setSomeDataService(dataServiceMock);
