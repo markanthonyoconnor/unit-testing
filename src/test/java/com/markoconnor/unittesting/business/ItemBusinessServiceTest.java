@@ -22,7 +22,7 @@ public class ItemBusinessServiceTest {
     private ItemBusinessService business;
 
     @Mock
-    ItemRepository repository = mock(ItemRepository.class);
+    ItemRepository repository;
 
 
     @Test
