@@ -22,7 +22,7 @@ public class SomeBusinessMockTest {
     @Mock
     SomeDataService dataServiceMock = mock(SomeDataService.class);
 
-    // Mockito does thia part for you by initialising the fields that have @Mock and inject in the object so no need for @Before
+    // Mockito does this part for you by initialising the fields that have @Mock and inject in the object so no need for @Before
 
     //@Before
     //public void before() {

@@ -18,17 +18,17 @@ public class ItemController {
     @GetMapping("/dummy-item")
     public Item dummyItem() {
 
-        return new Item(1, "Ball", 10, 100);
+        return new Item(1, "Ball", 10, 100); // returning some hard coded data calling the Item constructor to initialize the variables
     }
 
     @GetMapping("/item-from-business-service")
     public Item itemFromBusinessService() {
 
-        return businessService.retrieveHardcodedItem();
+        return businessService.retrieveHardcodedItem(); // Calling out to the businessService layer.
     }
 
     @GetMapping("/all-items-from-database")
-    public List<Item> retrieveAllItems(){
+    public List<Item> retrieveAllItems() {
         return businessService.retrieveAllItems();
     }
 }
